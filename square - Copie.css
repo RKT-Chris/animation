@@ -1,0 +1,162 @@
+body{
+	background-color: white;
+	animation: body 1s ease-in-out 0s infinite alternate;	
+}
+.circle{
+	width: 10%;
+	height: 10%;
+	border-radius: 25%;
+}
+.parent{
+	position: relative;
+	top: 200px;
+	margin: auto;
+	width: 250px;
+	height: 250px;
+}
+#center{
+	position: relative;
+	background-color: black;
+	animation: color 1s ease-in-out 0s infinite alternate;
+	bottom: 25%;
+	left: 45%;
+}
+#corner1{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	animation: move1 1s ease-in-out 0s infinite alternate;
+	background-color: black;
+}
+#corner2{
+	position: relative;
+	top: 80%;
+	left: 90%;
+	animation: move2 1s ease-in-out 0s infinite alternate;
+	background-color: black;
+}
+#corner3{
+	position: relative;
+	bottom: 20%;
+	left: 90%;
+	animation: move3 1s ease-in-out 0s infinite alternate;
+	background-color: black;
+}
+#corner4{
+	position: relative;
+	bottom: 0%;
+	left: 0%;
+	animation: move4 1s ease-in-out 0s infinite alternate;
+	background-color: black;
+}
+#side1{
+	position: relative;
+	background-color: black;
+	bottom: 45%;
+	left: 45%;
+	animation: move5 1s ease-in-out 0s infinite alternate;
+}
+#side2{
+	position: relative;
+	background-color: black;
+	top: 65%;
+	left: 45%;
+	animation: move6 1s ease-in-out 0s infinite alternate;
+}
+#side3{
+	position: relative;
+	background-color: black;
+	top: -5%;
+	left: 105%;
+	animation: move7 1s ease-in-out 0s infinite alternate;
+}
+#side4{
+	position: relative;
+	background-color: black;
+	top: -15%;
+	left: -15%;
+	animation: move8 1s ease-in-out 0s infinite alternate;
+}
+@keyframes move1{
+	100%{
+		left: 105%;
+		top: 45%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move2{
+	100%{
+		left: -15%;
+		top: 35%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move3{
+	100%{
+		left: 45%;
+		bottom: -85%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move4{
+	100%{
+		left: 45%;
+		bottom: 105%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move5{
+	100%{
+		left: 90%;
+		bottom: -60%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move6{
+	100%{
+		left: 0%;
+		top: -40%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move7{
+	100%{
+		left: 0%;
+		top: 40%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes move8{
+	100%{
+		left: 90%;
+		top: -60%;
+		background-color: white;
+		transform: rotate(360deg);
+		border-radius: 50%;
+	}
+}
+@keyframes color{
+	100%{
+		background-color: white;
+		border-radius: 50%;
+	}
+}
+@keyframes body{
+	100%{
+		background-color: black;
+	}
+}
